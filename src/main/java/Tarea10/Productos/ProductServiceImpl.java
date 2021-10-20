@@ -23,7 +23,7 @@ public class ProductServiceImpl implements ProductService {
         productRepo.put(item1.getIdProduct(), item1);
 
         Product item2 = new Product();
-        item2.setIdProduct(1);
+        item2.setIdProduct(2);
         item2.setProductName("Croquetas Miau");
         item2.setProductDescription("Croquetas finas de michis");
         item2.setProductPrice(1200);
